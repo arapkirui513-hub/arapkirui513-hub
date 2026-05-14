@@ -54,6 +54,7 @@ I spent years fixing biomedical equipment in public hospitals. This unique clini
 ### 🤝 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevin%20Kirui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kevin-kirui-ba9593275)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01c51401c74a81c8f4)
 [![GitHub](https://img.shields.io/badge/GitHub-arapkirui513--hub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arapkirui513-hub)
 
 </div>
