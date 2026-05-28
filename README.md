@@ -4,7 +4,7 @@
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Biomedical+Engineer;AI+%26+Data+Solutions+for+Healthcare;Focused+on+Clinical+Safety)](https://git.io/typing-svg)
 
-> **Biomedical engineer with hands-on hospital experience — now building AI and data solutions for healthcare.**
+> **Biomedical engineer with hands-on hospital experience now building AI and data solutions for healthcare.**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=arapkirui513-hub&color=blue&style=flat-square)
 
