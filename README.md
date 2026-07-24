@@ -1,127 +1,164 @@
 # Kevin Kirui
 
-### Healthcare Workflow & Data Systems Specialist
+**Healthcare Workflow & AI Systems Specialist**
 
-I build healthcare analytics tools, clinical workflow intelligence systems, and AI-assisted decision-support prototypes for health operations.
-
-My work focuses on turning fragmented clinical data, facility records, alerts, documentation, and operational workflows into structured systems that help people understand where gaps exist and what should happen next.
+I build systems that turn fragmented healthcare data, clinical workflows, and operational records into structured tools that help teams understand where gaps exist and what should happen next.
 
 ---
 
-## What I Build
+## Overview
 
-* Full-stack healthcare analytics dashboards
-* Clinical workflow audit tools
-* Health facility and service availability analysis
-* AI-assisted workflow and decision-support prototypes
-* Data cleaning, scoring, and reporting pipelines
-* Operational dashboards for healthcare planning
+This repository contains the source code for my portfolio website together with the engineering documentation that explains the architectural decisions, implementation, and evolution of the project.
+
+It showcases healthcare-focused software systems and long-form technical case studies. Rather than presenting projects as isolated demos, each case study documents the problem being addressed, the design approach, the implementation, and the outcomes.
 
 ---
 
-## Featured Projects
+## What You'll Find
 
-| Project                               | Focus                                             | Highlights                                                                                            | Links                                                                                                                                                                                           |
-| ------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Kenya Health Facilities Dashboard** | Full-stack healthcare analytics platform          | 10,483 facilities, county choropleth map, service gap scoring, CSV export, public API, v1.0.0 release | [Live Demo](https://kenya-health-dashboard.vercel.app/) · [API Docs](https://kenya-health-dashboard-api.onrender.com/docs) · [Repo](https://github.com/arapkirui513-hub/kenya-health-dashboard) |
-| **Clinical Workflow Signal Audit**    | ICU workflow intelligence and escalation analysis | Signal-to-action latency, SLA breaches, bottleneck mapping, risk scoring                              | [Live Demo](https://workflow-signal-audit.lovable.app/) · [Repo](https://github.com/arapkirui513-hub/clinical-workflow-signal-audit)                                                            |
-| **NairobiSignal**                     | Kenya tech and market intelligence pipeline       | News ingestion, signal scoring, source classification, Telegram alerts                                | [Live Demo](https://nairobi-signal-xynh.vercel.app/)                                                                                                                                            |
-| **Remote HealthAI Role Matcher**      | Remote job intelligence and scoring system        | Multi-source job scraping, AI summaries, scoring, Google Sheets export, Telegram alerts               | [GitHub](https://github.com/arapkirui513-hub)                                                                                                                                                   |
-| **ClarityFlow**                       | Healthcare workflow product concept               | Clinician-focused task prioritization, documentation support, workflow UX                             | [Live Demo](https://clarity-flow-one.vercel.app/)                                                                                                                                               |
+- Three healthcare-focused engineering case studies with long-form technical write-ups
+- A modern Next.js application built with TypeScript and the App Router
+- MDX-powered content pipeline for published case studies
+- Architecture Decision Records documenting key technical choices
+- A repository-backed engineering journal mapped to Git commit history
+- SEO and reading experience subsystems with structured data generation
+- A Portfolio Engineering Handbook documenting architecture, engineering decisions, and repository-backed development history
 
 ---
 
-## Current Flagship Project
+## Featured Case Studies
+
+### Clinical Workflow Signal Audit
+
+Models how clinical signals move through ICU workflows using synthetic patient data.
+
+The project measures the time between patient deterioration signals and clinical actions to identify escalation delays, missing documentation, and workflow bottlenecks.
+
+- Synthetic ICU clinical dataset
+- Signal-to-action latency measurement
+- Escalation pathway analysis
+- Bottleneck identification
+
+[View Case Study →](https://kevin-kirui.vercel.app/work/clinical-workflow-signal-audit)
+
+---
 
 ### Kenya Health Facilities Dashboard
 
-A deployed full-stack healthcare analytics dashboard for exploring health facility distribution, ownership, service availability, and access gaps across Kenya.
+Transforms fragmented Kenyan health facility data into county-level planning insights through interactive analytics and population-adjusted access metrics.
 
-**Built with:**
+- 10,483 health facilities mapped
+- County-level comparison and scoring
+- Population-adjusted access metrics
+- Public API with Swagger documentation
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat\&logo=fastapi\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat\&logo=pandas\&logoColor=white)
-![OpenPyXL](https://img.shields.io/badge/OpenPyXL-217346?style=flat\&logo=microsoft-excel\&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat\&logo=react\&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat\&logo=vite\&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat\&logo=tailwind-css\&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat\&logo=chartdotjs\&logoColor=white)
-![React Leaflet](https://img.shields.io/badge/React_Leaflet-199900?style=flat\&logo=leaflet\&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat\&logo=vercel\&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat\&logo=render\&logoColor=000000)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat\&logo=github-actions\&logoColor=white)
-
-**Key features:**
-
-* Interactive national health facility dashboard
-* County-level choropleth map
-* Facility finder with filters and pagination
-* CSV export
-* ART service gap analysis
-* Multi-service coverage scoring
-* FastAPI backend with public Swagger docs
-* GitHub Actions backend keep-alive workflow
-* Production release: `v1.0.0 – Portfolio Release`
-
-[View Live Dashboard](https://kenya-health-dashboard.vercel.app/)
-[View API Docs](https://kenya-health-dashboard-api.onrender.com/docs)
-[View Repository](https://github.com/arapkirui513-hub/kenya-health-dashboard)
+[View Case Study →](https://kevin-kirui.vercel.app/work/kenya-health-dashboard) · [Live Dashboard](https://kenya-health-dashboard.vercel.app/) · [API Docs](https://kenya-health-dashboard-api.onrender.com/docs)
 
 ---
 
-## Tech Stack
+### Remote HealthAI Role Matcher
 
-**Data and Backend**
+Collects, structures, and ranks remote healthcare AI opportunities from multiple sources using a reproducible scoring workflow.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat\&logo=pandas\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat\&logo=fastapi\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat\&logo=postgresql\&logoColor=white)
+The project reduced an initial pool of 385 postings to a shortlist of 10 roles for detailed review.
 
-**Frontend and Product**
+- 385 postings collected from multiple sources
+- 10 roles shortlisted through reproducible scoring
+- Structured evaluation workflow
+- AI-assisted summarisation and ranking
 
-![React](https://img.shields.io/badge/React-20232A?style=flat\&logo=react\&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat\&logo=vite\&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat\&logo=tailwind-css\&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat\&logo=chartdotjs\&logoColor=white)
-
-**Workflow and Deployment**
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat\&logo=github\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat\&logo=github-actions\&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat\&logo=vercel\&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat\&logo=render\&logoColor=000000)
+[View Case Study →](https://kevin-kirui.vercel.app/work/remote-healthai-role-matcher)
 
 ---
 
-## Current Focus
+## Engineering Documentation
 
-I am currently building portfolio-grade healthcare data products around:
+The repository includes a Portfolio Engineering Handbook covering the architecture, decisions, and engineering practices behind the implementation:
 
-* Population-adjusted healthcare access
-* Disease burden and service availability analysis
-* County-level health equity indicators
-* Clinical workflow signal detection
-* AI-assisted healthcare operations tools
+| Document | Purpose |
+|----------|---------|
+| Handbook Standards | Documentation governance and standards |
+| Engineering Principles | Recurring practices supported by repository evidence |
+| Architecture | System structure, components, and data flow |
+| Decision Log | Architecture Decision Records and their lifecycle |
+| Case Study System | MDX content pipeline and publishing workflow |
+| SEO System | Metadata generation and structured data |
+| Reading Experience | Navigation, progress tracking, and reading features |
+| Release History | Tagged software releases and milestones |
+| Future Roadmap | Identified engineering work not yet completed |
+| Developer Guide | Development environment and maintenance procedures |
+| Engineering Journal | Chronological engineering history mapped to Git commits |
+| Glossary | Shared terminology across the handbook |
+
+> 📘 **Explore the complete handbook:** [docs/README.md](./docs/README.md)
 
 ---
 
-<details>
-<summary>My background</summary>
+## Technology Stack
 
-I started in biomedical engineering, working around clinical equipment, hospital departments, and real operational constraints. That background shaped how I think about health technology.
+### Application
+Next.js · React · TypeScript · Tailwind CSS · Framer Motion
 
-I do not only care whether a dashboard looks good. I care whether the system helps someone understand the workflow, spot the gap, and make a better operational decision.
+### Content
+MDX with `next-mdx-remote` · `@mdx-js/react` · gray-matter
 
-That is why my projects combine healthcare context, data workflows, analytics, product thinking, and practical implementation.
+### SEO and Metadata
+Next.js Metadata API · JSON-LD · Schema.org · Open Graph
 
-</details>
+### Deployment
+Vercel (production hosting)
+
+---
+
+## Repository Highlights
+
+- Three healthcare engineering case studies
+- Twelve-document engineering handbook
+- Repository-backed architectural decisions
+- Git-traceable engineering history
+- MDX publishing workflow
+- Static Next.js application
+
+---
+
+## Repository Structure
+
+```
+app/            Application routes, layouts, and page components
+components/     Reusable React components organized by domain
+content/        MDX case studies and published content
+data/           Site configuration and shared metadata
+docs/           Portfolio Engineering Handbook and ADRs
+lib/            Shared utilities and application logic
+public/         Static assets and images
+styles/         Global styles, design tokens, and MDX typography
+types/          Shared TypeScript type definitions
+```
+
+---
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+---
+
+## Engineering Philosophy
+
+I build software that makes complex healthcare workflows easier to understand. Alongside implementation, I document architectural decisions, engineering history, and design trade-offs so future changes are based on evidence rather than memory.
 
 ---
 
 ## Contact
 
-Email: [kiruikevin388@gmail.com](mailto:kiruikevin388@gmail.com)
-LinkedIn: [Kevin Kirui](https://www.linkedin.com/in/kevin-kirui-ba9593275/)
-GitHub: [arapkirui513-hub](https://github.com/arapkirui513-hub)
+- **Email:** [kiruikevin388@gmail.com](mailto:kiruikevin388@gmail.com)
+- **LinkedIn:** [Kevin Kirui](https://www.linkedin.com/in/kevin-kirui-ba9593275/)
+- **GitHub:** [arapkirui513-hub](https://github.com/arapkirui513-hub)
+- **Portfolio:** [kevin-kirui.vercel.app](https://kevin-kirui.vercel.app)
+
+---
