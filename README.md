@@ -90,7 +90,7 @@ The repository includes a Portfolio Engineering Handbook covering the architectu
 | Engineering Journal | Chronological engineering history mapped to Git commits |
 | Glossary | Shared terminology across the handbook |
 
-> 📘 **Explore the complete handbook:** [docs/README.md](./docs/README.md)
+> 📘 **Explore the complete handbook in the portfolio repository:** [README.md](https://github.com/arapkirui513-hub/kevin-kirui/blob/main/docs/README.md)
 
 ---
 
