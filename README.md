@@ -58,14 +58,9 @@ Transforms fragmented Kenyan health facility data into county-level planning ins
 
 ### Remote HealthAI Role Matcher
 
-Collects, structures, and ranks remote healthcare AI opportunities from multiple sources using a reproducible scoring workflow.
+A scoring and ranking pipeline that collects postings from multiple sources and reduces them to a shortlist for review; 385 postings down to 10 roles. Built primarily as a data pipeline and automation exercise, distinct from the workflow-intelligence focus of the case studies above.
 
-The project reduced an initial pool of 385 postings to a shortlist of 10 roles for detailed review.
 
-- 385 postings collected from multiple sources
-- 10 roles shortlisted through reproducible scoring
-- Structured evaluation workflow
-- AI-assisted summarisation and ranking
 
 [View Case Study →](https://kevin-kirui.vercel.app/work/remote-healthai-role-matcher)
 
