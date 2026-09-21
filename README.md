@@ -1,151 +1,117 @@
-# Kevin Kirui
+﻿# Kevin Kirui
 
-**Healthcare Workflow & AI Systems Specialist**
+**Backend AI systems engineer working in healthcare workflow and clinical operations.**
 
-I build systems that turn fragmented healthcare data, clinical workflows, and operational records into structured tools that help teams understand where gaps exist and what should happen next.
-
----
-
-## Overview
-
-This repository contains the source code for my portfolio website together with the engineering documentation that explains the architectural decisions, implementation, and evolution of the project.
-
-It showcases healthcare-focused software systems and long-form technical case studies. Rather than presenting projects as isolated demos, each case study documents the problem being addressed, the design approach, the implementation, and the outcomes.
+I build AI-powered backend systems, APIs, data workflows, and healthcare-focused applications, with a focus on structured outputs, uncertainty handling, reliability, and human review.
 
 ---
 
-## What You'll Find
+## What I Build
 
-- Three healthcare-focused engineering case studies with long-form technical write-ups
-- A modern Next.js application built with TypeScript and the App Router
-- MDX-powered content pipeline for published case studies
-- Architecture Decision Records documenting key technical choices
-- A repository-backed engineering journal mapped to Git commit history
-- SEO and reading experience subsystems with structured data generation
-- A Portfolio Engineering Handbook documenting architecture, engineering decisions, and repository-backed development history
+- AI-powered backend systems
+- Healthcare workflow systems
+- Computer vision and embedding pipelines
+- APIs and data systems
+- AI reliability, failure handling, and evaluation
 
 ---
 
-## Featured Case Studies
+## Selected Systems
 
-### Clinical Workflow Signal Audit
+### AI Image Understanding & Content Matching
 
-Models how clinical signals move through ICU workflows using synthetic patient data.
+A backend system combining vision analysis, semantic embeddings, candidate retrieval, mismatch guards, background processing, and human review workflows.
 
-The project measures the time between patient deterioration signals and clinical actions to identify escalation delays, missing documentation, and workflow bottlenecks.
+[View Repository →](https://github.com/arapkirui513-hub/flyrank-capstone-image-relevance)
 
-- Synthetic ICU clinical dataset
-- Signal-to-action latency measurement
-- Escalation pathway analysis
-- Bottleneck identification
+### Maintenance Triage
 
-[View Case Study →](https://kevin-kirui.vercel.app/work/clinical-workflow-signal-audit)
+A bounded LLM workflow for biomedical equipment maintenance reports with structured outputs, confidence controls, retries, timeouts, and explicit failure handling.
 
----
+[View Repository →](https://github.com/arapkirui513-hub/maintenance-triage)
+
+### Healthcare Report Job Queue
+
+A FastAPI + Inngest background job system for biomedical equipment maintenance reports, including retries, failure handling, status tracking, and PDF generation.
+
+[View Repository →](https://github.com/arapkirui513-hub/healthcare-report-job-queue)
 
 ### Kenya Health Facilities Dashboard
 
-Transforms fragmented Kenyan health facility data into county-level planning insights through interactive analytics and population-adjusted access metrics.
+A full-stack health data product combining facility data, population-adjusted access, county comparison, planning signals, and a public API.
 
-- 10,483 health facilities mapped
-- County-level comparison and scoring
-- Population-adjusted access metrics
-- Public API with Swagger documentation
+[View Repository →](https://github.com/arapkirui513-hub/kenya-health-dashboard)
 
-[View Case Study →](https://kevin-kirui.vercel.app/work/kenya-health-dashboard) · [Live Dashboard](https://kenya-health-dashboard.vercel.app/) · [API Docs](https://kenya-health-dashboard-api.onrender.com/docs)
+### Clinical Workflow Signal Audit
+
+A synthetic ICU workflow system for auditing signal-to-action latency, escalation SLAs, data quality, and human review.
+
+[View Repository →](https://github.com/arapkirui513-hub/clinical-workflow-signal-audit)
+
+A broader set of systems, including a multi-tenant widget platform, is available on GitHub.
 
 ---
 
-### Remote HealthAI Role Matcher
+## Internship
 
-A scoring and ranking pipeline that collects postings from multiple sources and reduces them to a shortlist for review; 385 postings down to 10 roles. Built primarily as a data pipeline and automation exercise, distinct from the workflow-intelligence focus of the case studies above.
+### FlyRank AI
 
+**Backend AI Engineering · July 1 – September 20, 2026**
 
+**AI Fluency · July 1 – September 21, 2026**
 
-[View Case Study →](https://kevin-kirui.vercel.app/work/remote-healthai-role-matcher)
+Built and evaluated AI systems involving computer vision, structured LLM workflows, background jobs, APIs, automation, and reliability controls.
 
 ---
 
 ## Engineering Documentation
 
-The repository includes a Portfolio Engineering Handbook covering the architecture, decisions, and engineering practices behind the implementation:
+This profile repository also contains the engineering documentation behind my portfolio, including architecture decisions, engineering principles, release history, and a repository-backed engineering journal.
 
-| Document | Purpose |
-|----------|---------|
-| Handbook Standards | Documentation governance and standards |
-| Engineering Principles | Recurring practices supported by repository evidence |
-| Architecture | System structure, components, and data flow |
-| Decision Log | Architecture Decision Records and their lifecycle |
-| Case Study System | MDX content pipeline and publishing workflow |
-| SEO System | Metadata generation and structured data |
-| Reading Experience | Navigation, progress tracking, and reading features |
-| Release History | Tagged software releases and milestones |
-| Future Roadmap | Identified engineering work not yet completed |
-| Developer Guide | Development environment and maintenance procedures |
-| Engineering Journal | Chronological engineering history mapped to Git commits |
-| Glossary | Shared terminology across the handbook |
+### Portfolio Engineering Handbook
 
-> 📘 **Explore the complete handbook in the portfolio repository:** [README.md](https://github.com/arapkirui513-hub/kevin-kirui/blob/main/docs/README.md)
+The handbook documents:
 
----
+- Engineering standards and principles
+- Architecture and data flow
+- Architecture Decision Records
+- Case study publishing
+- SEO and metadata systems
+- Reading experience
+- Release history
+- Developer guidance
+- Engineering journal
+- Shared terminology
 
-## Technology Stack
-
-### Application
-Next.js · React · TypeScript · Tailwind CSS · Framer Motion
-
-### Content
-MDX with `next-mdx-remote` · `@mdx-js/react` · gray-matter
-
-### SEO and Metadata
-Next.js Metadata API · JSON-LD · Schema.org · Open Graph
-
-### Deployment
-Vercel (production hosting)
+[Explore the Engineering Handbook →](https://github.com/arapkirui513-hub/kevin-kirui/blob/main/docs/README.md)
 
 ---
 
-## Repository Highlights
+## Technology
 
-- Three healthcare engineering case studies
-- Twelve-document engineering handbook
-- Repository-backed architectural decisions
-- Git-traceable engineering history
-- MDX publishing workflow
-- Static Next.js application
+**Backend & APIs**
 
----
+Python · Node.js · FastAPI · Express · PostgreSQL
 
-## Repository Structure
+**AI & Data**
 
-```
-app/            Application routes, layouts, and page components
-components/     Reusable React components organized by domain
-content/        MDX case studies and published content
-data/           Site configuration and shared metadata
-docs/           Portfolio Engineering Handbook and ADRs
-lib/            Shared utilities and application logic
-public/         Static assets and images
-styles/         Global styles, design tokens, and MDX typography
-types/          Shared TypeScript type definitions
-```
+LLM workflows · Computer vision · Embeddings · Pandas · NumPy · Scikit-learn · PyTorch
 
----
+**Frontend & Deployment**
 
-## Running Locally
+Next.js · React · TypeScript · Tailwind CSS · Vercel
 
-```bash
-npm install
-npm run dev
-```
+**Workflow & Infrastructure**
 
-Open [http://localhost:3000](http://localhost:3000).
+Inngest · Docker · Supabase · GitHub
 
 ---
 
 ## Engineering Philosophy
 
-I build software that makes complex healthcare workflows easier to understand. Alongside implementation, I document architectural decisions, engineering history, and design trade-offs so future changes are based on evidence rather than memory.
+I build software that makes complex healthcare workflows easier to understand and operate.
+
+Alongside implementation, I document architectural decisions, engineering history, and design trade-offs so future changes are based on evidence rather than memory.
 
 ---
 
