@@ -1,6 +1,6 @@
 ﻿# Kevin Kirui
 
-**Healthcare AI Product Systems Specialist building workflow-first AI systems for clinical environments.**
+**Healthcare AI Product Systems Specialist building workflow-first AI, analytics, and data systems for clinical operations.**
 
 I build AI-powered backend systems, APIs, data workflows, and healthcare-focused applications, with a focus on structured outputs, uncertainty handling, reliability, and human review.
 
