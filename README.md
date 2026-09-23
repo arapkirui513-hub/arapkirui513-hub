@@ -1,6 +1,6 @@
 ﻿# Kevin Kirui
 
-**Backend AI systems engineer working in healthcare workflow and clinical operations.**
+**Healthcare AI Product Systems Specialist building workflow-first AI systems for clinical environments.**
 
 I build AI-powered backend systems, APIs, data workflows, and healthcare-focused applications, with a focus on structured outputs, uncertainty handling, reliability, and human review.
 
